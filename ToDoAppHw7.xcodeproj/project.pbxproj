@@ -9,28 +9,46 @@
 /* Begin PBXBuildFile section */
 		EB2D03D4298AEDA600EAE3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D03D3298AEDA600EAE3DF /* AppDelegate.swift */; };
 		EB2D03D6298AEDA600EAE3DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D03D5298AEDA600EAE3DF /* SceneDelegate.swift */; };
-		EB2D03D8298AEDA600EAE3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D03D7298AEDA600EAE3DF /* ViewController.swift */; };
 		EB2D03DB298AEDA600EAE3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2D03D9298AEDA600EAE3DF /* Main.storyboard */; };
 		EB2D03DD298AEDA700EAE3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2D03DC298AEDA700EAE3DF /* Assets.xcassets */; };
 		EB2D03E0298AEDA700EAE3DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2D03DE298AEDA700EAE3DF /* LaunchScreen.storyboard */; };
 		EB70D1B3298C06E600C2A47F /* todos.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = EB70D1B2298C06E600C2A47F /* todos.sqlite */; };
+		EB70D1CA298C09EC00C2A47F /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70D1C9298C09EC00C2A47F /* DetailScreen.swift */; };
+		EB70D1CC298C0A1100C2A47F /* TodoAddScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70D1CB298C0A1100C2A47F /* TodoAddScreen.swift */; };
+		EB70D1CE298C0A8600C2A47F /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70D1CD298C0A8600C2A47F /* HomeScreen.swift */; };
 		EB984AF9298BF1ED00303ECF /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EB984AF3298BF1EC00303ECF /* FMResultSet.m */; };
 		EB984AFA298BF1ED00303ECF /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EB984AF5298BF1ED00303ECF /* FMDatabase.m */; };
 		EB984AFB298BF1ED00303ECF /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EB984AF6298BF1ED00303ECF /* FMDatabaseAdditions.m */; };
 		EB984AFC298BF1ED00303ECF /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = EB984AF7298BF1ED00303ECF /* FMDatabasePool.m */; };
 		EB984AFD298BF1ED00303ECF /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EB984AF8298BF1ED00303ECF /* FMDatabaseQueue.m */; };
+		EBE053A2298C5402006D70DB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053A1298C5402006D70DB /* CollectionViewCell.swift */; };
+		EBE053A4298C5413006D70DB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053A3298C5413006D70DB /* TableViewCell.swift */; };
+		EBE053A6298C5428006D70DB /* HomeScreenProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053A5298C5428006D70DB /* HomeScreenProtocols.swift */; };
+		EBE053A8298C543B006D70DB /* HomeScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053A7298C543B006D70DB /* HomeScreenInteractor.swift */; };
+		EBE053AA298C5453006D70DB /* HomeScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053A9298C5453006D70DB /* HomeScreenRouter.swift */; };
+		EBE053AC298C5465006D70DB /* HomeScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053AB298C5465006D70DB /* HomeScreenPresenter.swift */; };
+		EBE053AE298C548F006D70DB /* DetailScreenProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053AD298C548F006D70DB /* DetailScreenProtocols.swift */; };
+		EBE053B0298C549E006D70DB /* DetailScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053AF298C549E006D70DB /* DetailScreenRouter.swift */; };
+		EBE053B2298C54AA006D70DB /* DetailScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053B1298C54AA006D70DB /* DetailScreenInteractor.swift */; };
+		EBE053B4298C54B4006D70DB /* DetailScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053B3298C54B4006D70DB /* DetailScreenPresenter.swift */; };
+		EBE053B6298C54CF006D70DB /* TodoAddScreenProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053B5298C54CF006D70DB /* TodoAddScreenProtocols.swift */; };
+		EBE053B8298C54DF006D70DB /* TodoAddScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053B7298C54DF006D70DB /* TodoAddScreenRouter.swift */; };
+		EBE053BA298C54F0006D70DB /* TodoAddScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053B9298C54F0006D70DB /* TodoAddScreenInteractor.swift */; };
+		EBE053BC298C54F9006D70DB /* TodoAddScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053BB298C54F9006D70DB /* TodoAddScreenPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB2D03D0298AEDA600EAE3DF /* ToDoAppHw7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoAppHw7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2D03D3298AEDA600EAE3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB2D03D5298AEDA600EAE3DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EB2D03D7298AEDA600EAE3DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB2D03DA298AEDA600EAE3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB2D03DC298AEDA700EAE3DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB2D03DF298AEDA700EAE3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB2D03E1298AEDA700EAE3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB70D1B2298C06E600C2A47F /* todos.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = todos.sqlite; sourceTree = "<group>"; };
+		EB70D1C9298C09EC00C2A47F /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		EB70D1CB298C0A1100C2A47F /* TodoAddScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddScreen.swift; sourceTree = "<group>"; };
+		EB70D1CD298C0A8600C2A47F /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		EB984AEC298BF14000303ECF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		EB984AED298BF1EB00303ECF /* ToDoAppHw7-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoAppHw7-Bridging-Header.h"; sourceTree = "<group>"; };
 		EB984AEE298BF1EB00303ECF /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
@@ -44,6 +62,20 @@
 		EB984AF6298BF1ED00303ECF /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		EB984AF7298BF1ED00303ECF /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
 		EB984AF8298BF1ED00303ECF /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		EBE053A1298C5402006D70DB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		EBE053A3298C5413006D70DB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EBE053A5298C5428006D70DB /* HomeScreenProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenProtocols.swift; sourceTree = "<group>"; };
+		EBE053A7298C543B006D70DB /* HomeScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenInteractor.swift; sourceTree = "<group>"; };
+		EBE053A9298C5453006D70DB /* HomeScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenRouter.swift; sourceTree = "<group>"; };
+		EBE053AB298C5465006D70DB /* HomeScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenPresenter.swift; sourceTree = "<group>"; };
+		EBE053AD298C548F006D70DB /* DetailScreenProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenProtocols.swift; sourceTree = "<group>"; };
+		EBE053AF298C549E006D70DB /* DetailScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenRouter.swift; sourceTree = "<group>"; };
+		EBE053B1298C54AA006D70DB /* DetailScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenInteractor.swift; sourceTree = "<group>"; };
+		EBE053B3298C54B4006D70DB /* DetailScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenPresenter.swift; sourceTree = "<group>"; };
+		EBE053B5298C54CF006D70DB /* TodoAddScreenProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddScreenProtocols.swift; sourceTree = "<group>"; };
+		EBE053B7298C54DF006D70DB /* TodoAddScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddScreenRouter.swift; sourceTree = "<group>"; };
+		EBE053B9298C54F0006D70DB /* TodoAddScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddScreenInteractor.swift; sourceTree = "<group>"; };
+		EBE053BB298C54F9006D70DB /* TodoAddScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddScreenPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +111,10 @@
 			children = (
 				EB2D03D3298AEDA600EAE3DF /* AppDelegate.swift */,
 				EB2D03D5298AEDA600EAE3DF /* SceneDelegate.swift */,
-				EB2D03D7298AEDA600EAE3DF /* ViewController.swift */,
+				EB70D1B4298C071100C2A47F /* entity */,
+				EB70D1B5298C073C00C2A47F /* homescreen-module */,
+				EB70D1B6298C079A00C2A47F /* detailscreen-module */,
+				EB70D1B7298C07DF00C2A47F /* todoaddscreen-module */,
 				EB2D03D9298AEDA600EAE3DF /* Main.storyboard */,
 				EB2D03DC298AEDA700EAE3DF /* Assets.xcassets */,
 				EB2D03DE298AEDA700EAE3DF /* LaunchScreen.storyboard */,
@@ -101,12 +136,193 @@
 			path = ToDoAppHw7;
 			sourceTree = "<group>";
 		};
+		EB70D1B4298C071100C2A47F /* entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		EB70D1B5298C073C00C2A47F /* homescreen-module */ = {
+			isa = PBXGroup;
+			children = (
+				EBE0539E298C53B7006D70DB /* collectionview */,
+				EB70D1BD298C094E00C2A47F /* tableview */,
+				EB70D1BC298C093800C2A47F /* protocols */,
+				EB70D1BB298C092A00C2A47F /* router */,
+				EB70D1BA298C091E00C2A47F /* interactor */,
+				EB70D1B9298C090B00C2A47F /* presenter */,
+				EB70D1B8298C090500C2A47F /* view */,
+			);
+			path = "homescreen-module";
+			sourceTree = "<group>";
+		};
+		EB70D1B6298C079A00C2A47F /* detailscreen-module */ = {
+			isa = PBXGroup;
+			children = (
+				EB70D1C2298C099E00C2A47F /* protocols */,
+				EB70D1C1298C099300C2A47F /* router */,
+				EB70D1C0298C098C00C2A47F /* interactor */,
+				EB70D1BF298C098300C2A47F /* presenter */,
+				EB70D1BE298C097D00C2A47F /* view */,
+			);
+			path = "detailscreen-module";
+			sourceTree = "<group>";
+		};
+		EB70D1B7298C07DF00C2A47F /* todoaddscreen-module */ = {
+			isa = PBXGroup;
+			children = (
+				EB70D1C8298C09D500C2A47F /* protocols */,
+				EB70D1C7298C09D000C2A47F /* router */,
+				EB70D1C6298C09C900C2A47F /* interactor */,
+				EB70D1C5298C09C200C2A47F /* presenter */,
+				EB70D1C4298C09BC00C2A47F /* view */,
+			);
+			path = "todoaddscreen-module";
+			sourceTree = "<group>";
+		};
+		EB70D1B8298C090500C2A47F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EB70D1CD298C0A8600C2A47F /* HomeScreen.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		EB70D1B9298C090B00C2A47F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EBE053AB298C5465006D70DB /* HomeScreenPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		EB70D1BA298C091E00C2A47F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				EBE053A7298C543B006D70DB /* HomeScreenInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		EB70D1BB298C092A00C2A47F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				EBE053A9298C5453006D70DB /* HomeScreenRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		EB70D1BC298C093800C2A47F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EBE053A5298C5428006D70DB /* HomeScreenProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		EB70D1BD298C094E00C2A47F /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				EBE053A3298C5413006D70DB /* TableViewCell.swift */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
+		EB70D1BE298C097D00C2A47F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EB70D1C9298C09EC00C2A47F /* DetailScreen.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		EB70D1BF298C098300C2A47F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EBE053B3298C54B4006D70DB /* DetailScreenPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		EB70D1C0298C098C00C2A47F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				EBE053B1298C54AA006D70DB /* DetailScreenInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		EB70D1C1298C099300C2A47F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				EBE053AF298C549E006D70DB /* DetailScreenRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		EB70D1C2298C099E00C2A47F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EBE053AD298C548F006D70DB /* DetailScreenProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		EB70D1C4298C09BC00C2A47F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EB70D1CB298C0A1100C2A47F /* TodoAddScreen.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		EB70D1C5298C09C200C2A47F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EBE053BB298C54F9006D70DB /* TodoAddScreenPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		EB70D1C6298C09C900C2A47F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				EBE053B9298C54F0006D70DB /* TodoAddScreenInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		EB70D1C7298C09D000C2A47F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				EBE053B7298C54DF006D70DB /* TodoAddScreenRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		EB70D1C8298C09D500C2A47F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EBE053B5298C54CF006D70DB /* TodoAddScreenProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
 		EB984AEB298BF14000303ECF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				EB984AEC298BF14000303ECF /* libsqlite3.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBE0539E298C53B7006D70DB /* collectionview */ = {
+			isa = PBXGroup;
+			children = (
+				EBE053A1298C5402006D70DB /* CollectionViewCell.swift */,
+			);
+			path = collectionview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,14 +398,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB2D03D8298AEDA600EAE3DF /* ViewController.swift in Sources */,
 				EB984AFD298BF1ED00303ECF /* FMDatabaseQueue.m in Sources */,
+				EBE053B4298C54B4006D70DB /* DetailScreenPresenter.swift in Sources */,
 				EB2D03D4298AEDA600EAE3DF /* AppDelegate.swift in Sources */,
+				EBE053A6298C5428006D70DB /* HomeScreenProtocols.swift in Sources */,
 				EB984AF9298BF1ED00303ECF /* FMResultSet.m in Sources */,
 				EB984AFA298BF1ED00303ECF /* FMDatabase.m in Sources */,
+				EBE053BC298C54F9006D70DB /* TodoAddScreenPresenter.swift in Sources */,
+				EBE053B0298C549E006D70DB /* DetailScreenRouter.swift in Sources */,
+				EBE053AC298C5465006D70DB /* HomeScreenPresenter.swift in Sources */,
 				EB984AFC298BF1ED00303ECF /* FMDatabasePool.m in Sources */,
+				EBE053B6298C54CF006D70DB /* TodoAddScreenProtocols.swift in Sources */,
 				EB2D03D6298AEDA600EAE3DF /* SceneDelegate.swift in Sources */,
+				EBE053A8298C543B006D70DB /* HomeScreenInteractor.swift in Sources */,
+				EB70D1CE298C0A8600C2A47F /* HomeScreen.swift in Sources */,
+				EBE053B2298C54AA006D70DB /* DetailScreenInteractor.swift in Sources */,
+				EBE053BA298C54F0006D70DB /* TodoAddScreenInteractor.swift in Sources */,
+				EBE053AE298C548F006D70DB /* DetailScreenProtocols.swift in Sources */,
+				EB70D1CC298C0A1100C2A47F /* TodoAddScreen.swift in Sources */,
 				EB984AFB298BF1ED00303ECF /* FMDatabaseAdditions.m in Sources */,
+				EBE053A4298C5413006D70DB /* TableViewCell.swift in Sources */,
+				EBE053B8298C54DF006D70DB /* TodoAddScreenRouter.swift in Sources */,
+				EB70D1CA298C09EC00C2A47F /* DetailScreen.swift in Sources */,
+				EBE053AA298C5453006D70DB /* HomeScreenRouter.swift in Sources */,
+				EBE053A2298C5402006D70DB /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
