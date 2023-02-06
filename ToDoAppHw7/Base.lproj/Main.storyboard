@@ -82,29 +82,16 @@
                                                         <constraint firstItem="pr0-eb-Qkl" firstAttribute="centerY" secondItem="Ycr-0n-kwt" secondAttribute="centerY" id="hu5-CF-wG7"/>
                                                     </constraints>
                                                 </view>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S1Y-eP-D1b">
-                                                    <rect key="frame" x="315.33333333333331" y="33" width="49.666666666666686" height="34.333333333333343"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="circle" catalog="system">
-                                                        <color key="baseForegroundColor" name="primaryColor"/>
-                                                    </buttonConfiguration>
-                                                    <connections>
-                                                        <action selector="checkButton:" destination="4JK-2b-0pa" eventType="touchUpInside" id="inp-e3-B0i"/>
-                                                    </connections>
-                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Ycr-0n-kwt" firstAttribute="leading" secondItem="cie-9G-ovp" secondAttribute="leading" id="K0P-nU-50k"/>
-                                                <constraint firstItem="S1Y-eP-D1b" firstAttribute="centerY" secondItem="cie-9G-ovp" secondAttribute="centerY" id="L9d-2c-3YZ"/>
                                                 <constraint firstItem="Ycr-0n-kwt" firstAttribute="top" secondItem="cie-9G-ovp" secondAttribute="top" id="VPg-T2-xnH"/>
                                                 <constraint firstAttribute="trailing" secondItem="Ycr-0n-kwt" secondAttribute="trailing" id="hc5-2Z-79Z"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="S1Y-eP-D1b" secondAttribute="trailing" constant="8" id="iSc-DS-85e"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="Ycr-0n-kwt" secondAttribute="bottom" constant="-7.3333333333333286" id="jOa-OK-HWM"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="background" destination="Ycr-0n-kwt" id="py5-Ao-4cL"/>
-                                            <outlet property="buttonCheck" destination="S1Y-eP-D1b" id="Hcz-R1-igd"/>
                                             <outlet property="descriptionLabel" destination="0AR-se-1Ex" id="idG-4B-zWO"/>
                                             <outlet property="lastChangedTimeLabel" destination="p7m-mO-tLX" id="1qQ-fp-NWA"/>
                                             <outlet property="titleLable" destination="cbs-eI-9nT" id="RrG-3c-Fh0"/>
@@ -272,7 +259,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="circle" catalog="system" width="128" height="123"/>
         <namedColor name="primaryBackgroundColor">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

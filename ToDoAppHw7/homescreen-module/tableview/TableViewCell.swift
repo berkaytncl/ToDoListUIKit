@@ -13,7 +13,6 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var lastChangedTimeLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var background: UIView!
-    @IBOutlet weak var buttonCheck: UIButton!
     
     var isFirstIndex: Bool = false
     var isLastIndex: Bool = false
@@ -37,16 +36,6 @@ class TableViewCell: UITableViewCell {
         }
         if isLastIndex {
             roundCorners(corners: [.bottomLeft, .bottomRight], radius: 20.0)
-        }
-    }
-
-    @IBAction func checkButton(_ sender: Any) {
-        if buttonCheck.currentImage == UIImage(systemName: "circle") {
-            buttonCheck.setImage(UIImage(systemName: "circle.fill"), for: .normal)
-            background.backgroundColor = UIColor(named: "secondaryBackgroundColor")
-        } else {
-            buttonCheck.setImage(UIImage(systemName: "circle"), for: .normal)
-            background.backgroundColor = UIColor(named: "primaryBackgroundColor")
         }
     }
 }
