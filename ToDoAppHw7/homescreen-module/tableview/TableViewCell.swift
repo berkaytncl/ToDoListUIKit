@@ -31,11 +31,14 @@ class TableViewCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        if isFirstIndex {
-            roundCorners(corners: [.topLeft, .topRight], radius: 20.0)
-        }
-        if isLastIndex {
-            roundCorners(corners: [.bottomLeft, .bottomRight], radius: 20.0)
+        if isFirstIndex || isLastIndex {
+            if isFirstIndex {
+                roundCorners(corners: [.topLeft, .topRight], radius: 20.0)
+            } else {
+                roundCorners(corners: [.bottomLeft, .bottomRight], radius: 20.0)
+            }
+        } else {
+            roundCorners(corners: [.topLeft, .topRight, .bottomLeft, .bottomRight], radius: 0.0)
         }
     }
 }
