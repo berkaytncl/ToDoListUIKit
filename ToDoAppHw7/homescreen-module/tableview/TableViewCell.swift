@@ -9,9 +9,18 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var titleLable: UILabel!
+    @IBOutlet weak var lastChangedTimeLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var background: UIView!
+    @IBOutlet weak var buttonCheck: UIButton!
+    
+    var isFirstIndex: Bool = false
+    var isLastIndex: Bool = false
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -19,5 +28,25 @@ class TableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        if isFirstIndex {
+            roundCorners(corners: [.topLeft, .topRight], radius: 20.0)
+        }
+        if isLastIndex {
+            roundCorners(corners: [.bottomLeft, .bottomRight], radius: 20.0)
+        }
+    }
 
+    @IBAction func checkButton(_ sender: Any) {
+        if buttonCheck.currentImage == UIImage(systemName: "circle") {
+            buttonCheck.setImage(UIImage(systemName: "circle.fill"), for: .normal)
+            background.backgroundColor = UIColor(named: "secondaryBackgroundColor")
+        } else {
+            buttonCheck.setImage(UIImage(systemName: "circle"), for: .normal)
+            background.backgroundColor = UIColor(named: "primaryBackgroundColor")
+        }
+    }
 }

@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class TodoAddScreenPresenter: ViewToPresenterTodoAddScreenProtocol {
+    var todoAddScreenInteractor: PresenterToInteractorTodoAddScreenProtocol?
+    
+    func save(title: String, description: String, lastChangedTime: Int) {
+        todoAddScreenInteractor?.save(title: title, description: description, lastChangedTime: lastChangedTime)
+    }
+}

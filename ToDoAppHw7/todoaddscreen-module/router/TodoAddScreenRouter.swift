@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class TodoAddScreenRouter: PresenterToRouterTodoAddScreenProtocol {
+    static func createModule(ref: TodoAddScreen) {
+        ref.todoAddScreenPresenterObject = TodoAddScreenPresenter()
+        ref.todoAddScreenPresenterObject?.todoAddScreenInteractor = TodoAddScreenInteractor()
+    }
+}

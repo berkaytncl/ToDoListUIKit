@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class DetailScreenInteractor: PresenterToInteractorDetailScreenProtocol {
+    
+    func update(todoId: Int, title: String, description: String, lastChangedTime: Int) {
+        DatabaseManager.shared.update(todoId: todoId, title: title, description: description, lastChangedTime: lastChangedTime)
+    }
+}

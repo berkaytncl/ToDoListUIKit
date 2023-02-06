@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class TodoAddScreenInteractor: PresenterToInteractorTodoAddScreenProtocol {
+    
+    func save(title: String, description: String, lastChangedTime: Int) {
+        DatabaseManager.shared.save(title: title, description: description, lastChangedTime: lastChangedTime)
+    }
+}

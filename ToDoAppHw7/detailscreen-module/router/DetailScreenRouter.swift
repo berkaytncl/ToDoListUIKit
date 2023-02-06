@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class DetailScreenRouter: PresenterToRouterDetailScreenProtocol {
+    static func createModule(ref: DetailScreen) {
+        ref.detailScreenPresenterObject = DetailScreenPresenter()
+        ref.detailScreenPresenterObject?.detailScreenInteractor = DetailScreenInteractor()
+    }
+}

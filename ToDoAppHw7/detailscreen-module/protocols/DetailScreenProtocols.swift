@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+protocol ViewToPresenterDetailScreenProtocol {
+    var detailScreenInteractor: PresenterToInteractorDetailScreenProtocol? { get set }
+    
+    func update(todoId: Int, title: String, description: String, lastChangedTime: Int)
+}
+
+protocol PresenterToInteractorDetailScreenProtocol {
+    func update(todoId: Int, title: String, description: String, lastChangedTime: Int)
+}
+
+protocol PresenterToRouterDetailScreenProtocol {
+    static func createModule(ref: DetailScreen)
+}
