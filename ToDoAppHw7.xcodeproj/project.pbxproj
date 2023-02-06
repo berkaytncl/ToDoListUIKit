@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB05A186299086B700ED4BDF /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB05A185299086B700ED4BDF /* UIView+Ext.swift */; };
+		EB2BBEA62990503300147D6C /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BBEA52990503300147D6C /* DateManager.swift */; };
+		EB2BBEA82990539A00147D6C /* todos.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = EB2BBEA72990539900147D6C /* todos.sqlite */; };
 		EB2D03D4298AEDA600EAE3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D03D3298AEDA600EAE3DF /* AppDelegate.swift */; };
 		EB2D03D6298AEDA600EAE3DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D03D5298AEDA600EAE3DF /* SceneDelegate.swift */; };
 		EB2D03DB298AEDA600EAE3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2D03D9298AEDA600EAE3DF /* Main.storyboard */; };
 		EB2D03DD298AEDA700EAE3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2D03DC298AEDA700EAE3DF /* Assets.xcassets */; };
 		EB2D03E0298AEDA700EAE3DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2D03DE298AEDA700EAE3DF /* LaunchScreen.storyboard */; };
-		EB70D1B3298C06E600C2A47F /* todos.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = EB70D1B2298C06E600C2A47F /* todos.sqlite */; };
 		EB70D1CA298C09EC00C2A47F /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70D1C9298C09EC00C2A47F /* DetailScreen.swift */; };
 		EB70D1CC298C0A1100C2A47F /* TodoAddScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70D1CB298C0A1100C2A47F /* TodoAddScreen.swift */; };
 		EB70D1CE298C0A8600C2A47F /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70D1CD298C0A8600C2A47F /* HomeScreen.swift */; };
@@ -21,7 +23,6 @@
 		EB984AFB298BF1ED00303ECF /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EB984AF6298BF1ED00303ECF /* FMDatabaseAdditions.m */; };
 		EB984AFC298BF1ED00303ECF /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = EB984AF7298BF1ED00303ECF /* FMDatabasePool.m */; };
 		EB984AFD298BF1ED00303ECF /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EB984AF8298BF1ED00303ECF /* FMDatabaseQueue.m */; };
-		EBE053A2298C5402006D70DB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053A1298C5402006D70DB /* CollectionViewCell.swift */; };
 		EBE053A4298C5413006D70DB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053A3298C5413006D70DB /* TableViewCell.swift */; };
 		EBE053A6298C5428006D70DB /* HomeScreenProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053A5298C5428006D70DB /* HomeScreenProtocols.swift */; };
 		EBE053A8298C543B006D70DB /* HomeScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053A7298C543B006D70DB /* HomeScreenInteractor.swift */; };
@@ -35,9 +36,15 @@
 		EBE053B8298C54DF006D70DB /* TodoAddScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053B7298C54DF006D70DB /* TodoAddScreenRouter.swift */; };
 		EBE053BA298C54F0006D70DB /* TodoAddScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053B9298C54F0006D70DB /* TodoAddScreenInteractor.swift */; };
 		EBE053BC298C54F9006D70DB /* TodoAddScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053BB298C54F9006D70DB /* TodoAddScreenPresenter.swift */; };
+		EBE053C2298C592E006D70DB /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053C1298C592E006D70DB /* DatabaseManager.swift */; };
+		EBE053C4298C605F006D70DB /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053C3298C605F006D70DB /* Date+Ext.swift */; };
+		EBE053CE298C69D4006D70DB /* ToDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE053CD298C69D4006D70DB /* ToDos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB05A185299086B700ED4BDF /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		EB2BBEA52990503300147D6C /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		EB2BBEA72990539900147D6C /* todos.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = todos.sqlite; sourceTree = "<group>"; };
 		EB2D03D0298AEDA600EAE3DF /* ToDoAppHw7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoAppHw7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2D03D3298AEDA600EAE3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB2D03D5298AEDA600EAE3DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +52,6 @@
 		EB2D03DC298AEDA700EAE3DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB2D03DF298AEDA700EAE3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB2D03E1298AEDA700EAE3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB70D1B2298C06E600C2A47F /* todos.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = todos.sqlite; sourceTree = "<group>"; };
 		EB70D1C9298C09EC00C2A47F /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
 		EB70D1CB298C0A1100C2A47F /* TodoAddScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddScreen.swift; sourceTree = "<group>"; };
 		EB70D1CD298C0A8600C2A47F /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
@@ -62,7 +68,6 @@
 		EB984AF6298BF1ED00303ECF /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		EB984AF7298BF1ED00303ECF /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
 		EB984AF8298BF1ED00303ECF /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		EBE053A1298C5402006D70DB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		EBE053A3298C5413006D70DB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		EBE053A5298C5428006D70DB /* HomeScreenProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenProtocols.swift; sourceTree = "<group>"; };
 		EBE053A7298C543B006D70DB /* HomeScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenInteractor.swift; sourceTree = "<group>"; };
@@ -76,6 +81,9 @@
 		EBE053B7298C54DF006D70DB /* TodoAddScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddScreenRouter.swift; sourceTree = "<group>"; };
 		EBE053B9298C54F0006D70DB /* TodoAddScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddScreenInteractor.swift; sourceTree = "<group>"; };
 		EBE053BB298C54F9006D70DB /* TodoAddScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddScreenPresenter.swift; sourceTree = "<group>"; };
+		EBE053C1298C592E006D70DB /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		EBE053C3298C605F006D70DB /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		EBE053CD298C69D4006D70DB /* ToDos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,8 @@
 			children = (
 				EB2D03D3298AEDA600EAE3DF /* AppDelegate.swift */,
 				EB2D03D5298AEDA600EAE3DF /* SceneDelegate.swift */,
+				EBE053C0298C58F3006D70DB /* utilities */,
+				EBE053BD298C584A006D70DB /* extensions */,
 				EB70D1B4298C071100C2A47F /* entity */,
 				EB70D1B5298C073C00C2A47F /* homescreen-module */,
 				EB70D1B6298C079A00C2A47F /* detailscreen-module */,
@@ -119,7 +129,7 @@
 				EB2D03DC298AEDA700EAE3DF /* Assets.xcassets */,
 				EB2D03DE298AEDA700EAE3DF /* LaunchScreen.storyboard */,
 				EB2D03E1298AEDA700EAE3DF /* Info.plist */,
-				EB70D1B2298C06E600C2A47F /* todos.sqlite */,
+				EB2BBEA72990539900147D6C /* todos.sqlite */,
 				EB984AEE298BF1EB00303ECF /* FMDatabase.h */,
 				EB984AF5298BF1ED00303ECF /* FMDatabase.m */,
 				EB984AEF298BF1EC00303ECF /* FMDatabaseAdditions.h */,
@@ -139,6 +149,7 @@
 		EB70D1B4298C071100C2A47F /* entity */ = {
 			isa = PBXGroup;
 			children = (
+				EBE053CD298C69D4006D70DB /* ToDos.swift */,
 			);
 			path = entity;
 			sourceTree = "<group>";
@@ -146,7 +157,6 @@
 		EB70D1B5298C073C00C2A47F /* homescreen-module */ = {
 			isa = PBXGroup;
 			children = (
-				EBE0539E298C53B7006D70DB /* collectionview */,
 				EB70D1BD298C094E00C2A47F /* tableview */,
 				EB70D1BC298C093800C2A47F /* protocols */,
 				EB70D1BB298C092A00C2A47F /* router */,
@@ -317,12 +327,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EBE0539E298C53B7006D70DB /* collectionview */ = {
+		EBE053BD298C584A006D70DB /* extensions */ = {
 			isa = PBXGroup;
 			children = (
-				EBE053A1298C5402006D70DB /* CollectionViewCell.swift */,
+				EBE053C3298C605F006D70DB /* Date+Ext.swift */,
+				EB05A185299086B700ED4BDF /* UIView+Ext.swift */,
 			);
-			path = collectionview;
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		EBE053C0298C58F3006D70DB /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EBE053C1298C592E006D70DB /* DatabaseManager.swift */,
+				EB2BBEA52990503300147D6C /* DateManager.swift */,
+			);
+			path = utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,7 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB2D03E0298AEDA700EAE3DF /* LaunchScreen.storyboard in Resources */,
-				EB70D1B3298C06E600C2A47F /* todos.sqlite in Resources */,
+				EB2BBEA82990539A00147D6C /* todos.sqlite in Resources */,
 				EB2D03DD298AEDA700EAE3DF /* Assets.xcassets in Resources */,
 				EB2D03DB298AEDA600EAE3DF /* Main.storyboard in Resources */,
 			);
@@ -398,9 +418,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE053C4298C605F006D70DB /* Date+Ext.swift in Sources */,
 				EB984AFD298BF1ED00303ECF /* FMDatabaseQueue.m in Sources */,
 				EBE053B4298C54B4006D70DB /* DetailScreenPresenter.swift in Sources */,
+				EBE053C2298C592E006D70DB /* DatabaseManager.swift in Sources */,
+				EB05A186299086B700ED4BDF /* UIView+Ext.swift in Sources */,
 				EB2D03D4298AEDA600EAE3DF /* AppDelegate.swift in Sources */,
+				EBE053CE298C69D4006D70DB /* ToDos.swift in Sources */,
 				EBE053A6298C5428006D70DB /* HomeScreenProtocols.swift in Sources */,
 				EB984AF9298BF1ED00303ECF /* FMResultSet.m in Sources */,
 				EB984AFA298BF1ED00303ECF /* FMDatabase.m in Sources */,
@@ -420,8 +444,8 @@
 				EBE053A4298C5413006D70DB /* TableViewCell.swift in Sources */,
 				EBE053B8298C54DF006D70DB /* TodoAddScreenRouter.swift in Sources */,
 				EB70D1CA298C09EC00C2A47F /* DetailScreen.swift in Sources */,
+				EB2BBEA62990503300147D6C /* DateManager.swift in Sources */,
 				EBE053AA298C5453006D70DB /* HomeScreenRouter.swift in Sources */,
-				EBE053A2298C5402006D70DB /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
