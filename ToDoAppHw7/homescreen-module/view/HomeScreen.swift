@@ -63,6 +63,8 @@ extension HomeScreen: UITableViewDelegate, UITableViewDataSource {
         cell.descriptionLabel.text = todo._description
         cell.lastChangedTimeLabel.text = DateManager.shared.getLastModifiedTime(date: lastChangedTime)
         
+        cell.backgroundColor = UIColor().generateRandomColor()
+        
         return cell
     }
     
@@ -105,7 +107,6 @@ extension HomeScreen {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.separatorStyle = .none
-        tableView.backgroundColor = .systemGray5
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toDetailScreen" {

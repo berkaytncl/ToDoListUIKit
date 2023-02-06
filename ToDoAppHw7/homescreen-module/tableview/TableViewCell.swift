@@ -31,6 +31,8 @@ class TableViewCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         
+        background.backgroundColor = .systemGray6
+        
         if isFirstIndex || isLastIndex {
             if isFirstIndex {
                 roundCorners(corners: [.topLeft, .topRight], radius: 20.0)
